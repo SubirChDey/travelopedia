@@ -1,9 +1,3 @@
-.container {    
-    wi dth: 1170px;
-    align-items: center;
-    justify-content: center;
-    margin:50px;
-}
 
 .full-nav {
     /* display: flex;
@@ -49,11 +43,19 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+.newsletter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 10px;
+    padding: 10px;
+}
 
-.footer-section {     {
+.footer-section {     
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 60%;
+        background-color: antiquewhite;
+        background: rgba(19, 19, 24, 0.05);
 }
