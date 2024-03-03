@@ -1,9 +1,14 @@
+.container {    
+    wi dth: 1170px;
+    align-items: center;
+    justify-content: center;
+    margin:50px;
+}
+
 .full-nav {
     /* display: flex;
-    justify-content: space-between; */
-
-    display: grid;
-    grid-template-columns: 2;
+    justify-content: space-between;  */
+      
     
 }
 .logo-title {
@@ -12,5 +17,43 @@
 }
 
 .nav-items {
-    display: flex;
+  
+}
+
+.banner-section {
+    background-image: url("images/Group 13.png");
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+}
+
+.popular-tours {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+}
+
+.popular-tours-left {
+    margin: 2px;
+    padding: 20px;
+}
+.popular-tours-right {
+    margin: 2px;
+    padding: 20px;
+}
+h1 {
+    font-size: 2em;
+}
+.destinaton-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-section {     {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
 }
