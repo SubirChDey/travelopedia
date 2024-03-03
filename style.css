@@ -1,0 +1,16 @@
+.full-nav {
+    /* display: flex;
+    justify-content: space-between; */
+
+    display: grid;
+    grid-template-columns: 2;
+    
+}
+.logo-title {
+    font-size: 25px;
+
+}
+
+.nav-items {
+    display: flex;
+}
